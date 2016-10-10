@@ -70,10 +70,11 @@ td {
 	font-size: 90%;
 }
 
-LI { font-size: 100%;  text-align: left;  padding-left: 10px;  }
+li {
+	font-size: 100%;  text-align: left;  padding-left: 10px;  }
 
 body {
-	color: Black;
+	color: black;
 	background-color: #FFFBFB;
 	font-size: 80%;
 	letter-spacing: 0.10em;
@@ -88,14 +89,16 @@ body {
 	margin-left: 20px;
 }
 
-P { margin-left: 10px;  margin-right: 10px;  text-align: justify;   }
+p { margin-left: 10px;  margin-right: 10px;  text-align: justify;   }
 
-A {
-	color: #6495ED;
+a {
+	color: #97AEF6;
 	text-decoration: none;
+	text-shadow: 1px 1px 0px #111728;
 }
 
-A:HOVER {
+a:hover {
 	color: #115ADB;
-	text-decoration: underline;
 }
+
+
